@@ -17,12 +17,12 @@ int main(){
 	int A[]={1,2,3,4,5,6,7,8,9,0};
 	int n = 10,x = 0;
 	shuffle (n,A);
-	//�ˬd�Ʀr
+	//ÀË¬d¼Æ¦r
 	for(int i = 0;i<4;i++){
 		printf("%d",A[i]);
 	}
 	printf("\n");
-	printf("�q�Ʀr1A2B:");
+	printf("²q¼Æ¦r1A2B:");
 	while(1){
 		scanf("%d",&x);
 		int a = 0,b = 0;
@@ -35,7 +35,7 @@ int main(){
 		}
 		printf("%dA%dB\n",a,b);
 		if(a==4){
-			printf("����");
+			printf("µª¹ï");
 			break;
 		}
 	}
