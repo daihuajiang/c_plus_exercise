@@ -4,34 +4,34 @@
 
 int main()
 {
-	//³]©wÅÜ¼Æ 
+	//è¨­å®šè®Šæ•¸ 
 	int a,b=0,c,min=1,max=100;
-	//ÀH¾÷¼Æ 
+	//éš¨æ©Ÿæ•¸ 
 	srand(time(0)); 
 	a=1+rand()%100;
-    printf("²q¼Æ¦r1~100\n");
-    printf("½Ğ¿é¤J¤@­Ó¼Æ¦r: ");
+    printf("çŒœæ•¸å­—1~100\n");
+    printf("è«‹è¼¸å…¥ä¸€å€‹æ•¸å­—: ");
 	
-	//while°j°é¡A§PÂ_¬O§_²q¹ï¼Æ¦r
+	//whileè¿´åœˆï¼Œåˆ¤æ–·æ˜¯å¦çŒœå°æ•¸å­—
 	do
 	{ 
 		scanf("%d",&c);
 	    if(a==c) {
-	    	printf("²q¹ï¤F");
+	    	printf("çŒœå°äº†");
 	    	b=1;
 		}
 		if(c>max || c<min) {
-			printf("½Ğ¿é¤J¤@­Ó¼Æ¦r(%d~%d): ", min, max); 
+			printf("è«‹è¼¸å…¥ä¸€å€‹æ•¸å­—(%d~%d): ", min, max); 
 		} 
 		else{
 			if(a<c) {
 		    	max=c-1;
-				printf("¤Ó¤j,½Ğ¿é¤J¤@­Ó¼Æ¦r(%d~%d): ", min, max); 
+				printf("å¤ªå¤§,è«‹è¼¸å…¥ä¸€å€‹æ•¸å­—(%d~%d): ", min, max); 
 				c=c+1;
 			}
 			if(a>c) {
 				min=c+1;
-				printf("¤Ó¤p,½Ğ¿é¤J¤@­Ó¼Æ¦r(%d~%d): ", min, max);
+				printf("å¤ªå°,è«‹è¼¸å…¥ä¸€å€‹æ•¸å­—(%d~%d): ", min, max);
 				c=c+1;
 			} 
 		}
