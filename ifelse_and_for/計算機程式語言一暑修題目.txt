@@ -61,7 +61,7 @@ Please write a program to generate 2-D rotational matrix. The user decides the s
 11 16 15  6
 10  9  8  7
 
-0726
+0727
 請設計一個賓果遊戲
 盤面為
   1   2   3   4
